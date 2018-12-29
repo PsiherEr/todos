@@ -1,0 +1,26 @@
+.wrapper {
+     position: fixed;
+     background: #90ee90;
+     left: 0px;
+     right: 0px;
+     top: 0px;
+     bottom: 0px;
+     display: flex;
+ }
+
+.wrapper .item {
+    border: 1px solid;
+    flex: 1 1;
+}
+
+.lists .list{
+    border: 1px solid;
+    padding: 5px;
+    list-style-type: none;
+    margin: 5px;
+}
+
+.lists {
+    overflow-y: scroll;
+    height: 80vh;
+}
